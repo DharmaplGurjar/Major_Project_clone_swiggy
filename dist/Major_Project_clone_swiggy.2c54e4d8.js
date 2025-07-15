@@ -18694,47 +18694,7 @@ $RefreshReg$(_c, "FoodOption");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","./FoodCard":"cnzdA","@parcel/transformer-js/src/esmodule-helpers.js":"6lECw","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"bBnre","../Utills/FoodData":"iOnYE"}],"cnzdA":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$dde3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$dde3.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$dde3.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>Foodcard);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-function Foodcard({ foodData }) {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-            href: foodData?.action?.link,
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                className: "w-40 h-50 object-cover",
-                src: "https://media-assets.swiggy.com/swiggy/image/upload/" + foodData?.imageId
-            }, void 0, false, {
-                fileName: "src/Components/FoodCard.js",
-                lineNumber: 12,
-                columnNumber: 9
-            }, this)
-        }, void 0, false, {
-            fileName: "src/Components/FoodCard.js",
-            lineNumber: 11,
-            columnNumber: 9
-        }, this)
-    }, void 0, false);
-}
-_c = Foodcard;
-var _c;
-$RefreshReg$(_c, "Foodcard");
-
-  $parcel$ReactRefreshHelpers$dde3.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"6lECw","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"bBnre"}],"iOnYE":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","../Utills/FoodData":"iOnYE","./FoodCard":"cnzdA","@parcel/transformer-js/src/esmodule-helpers.js":"6lECw","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"bBnre"}],"iOnYE":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "imageGridCards", ()=>imageGridCards);
@@ -19081,7 +19041,47 @@ const imageGridCards = [
     }
 ];
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"6lECw"}],"ixBIs":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6lECw"}],"cnzdA":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$dde3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$dde3.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$dde3.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Foodcard);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Foodcard({ foodData }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+            href: foodData?.action?.link,
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "w-40 h-50 object-cover",
+                src: "https://media-assets.swiggy.com/swiggy/image/upload/" + foodData?.imageId
+            }, void 0, false, {
+                fileName: "src/Components/FoodCard.js",
+                lineNumber: 12,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/Components/FoodCard.js",
+            lineNumber: 11,
+            columnNumber: 9
+        }, this)
+    }, void 0, false);
+}
+_c = Foodcard;
+var _c;
+$RefreshReg$(_c, "Foodcard");
+
+  $parcel$ReactRefreshHelpers$dde3.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"6lECw","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"bBnre"}],"ixBIs":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$5595 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$5595.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -19494,19 +19494,36 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>Grocerycard);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 function Grocerycard({ foodData }) {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-        href: foodData?.action?.link,
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-            className: "w-40 h-50 object-cover",
-            src: "https://media-assets.swiggy.com/swiggy/image/upload/" + foodData?.imageId
-        }, void 0, false, {
-            fileName: "src/Components/GroceryCard.js",
-            lineNumber: 9,
-            columnNumber: 9
-        }, this)
-    }, void 0, false, {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "flex-none",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: foodData?.action?.link,
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "w-40 h-50 object-cover",
+                    src: "https://media-assets.swiggy.com/swiggy/image/upload/" + foodData?.imageId
+                }, void 0, false, {
+                    fileName: "src/Components/GroceryCard.js",
+                    lineNumber: 9,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/Components/GroceryCard.js",
+                lineNumber: 8,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "text-center font-bold",
+                children: foodData?.action?.text
+            }, void 0, false, {
+                fileName: "src/Components/GroceryCard.js",
+                lineNumber: 11,
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "src/Components/GroceryCard.js",
-        lineNumber: 8,
+        lineNumber: 7,
         columnNumber: 9
     }, this);
 }
